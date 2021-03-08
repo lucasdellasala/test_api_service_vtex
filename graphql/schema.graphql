@@ -1,0 +1,10 @@
+# To really understand GraphQL, go to http://graphql.org/guide/
+
+type ReturnType {
+  hair_color: String
+  name: String
+  height: String
+}
+type Query {
+  restResolver(domain:String!, url:String!, datajson:String!) : ReturnType
+}

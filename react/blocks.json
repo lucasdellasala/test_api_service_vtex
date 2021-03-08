@@ -1,0 +1,7 @@
+{
+    "samplerestrequest":{
+        "blocks": "string",
+        "props": "Record<string, any>",
+        "parent": "Record<string, string>"
+    }
+}

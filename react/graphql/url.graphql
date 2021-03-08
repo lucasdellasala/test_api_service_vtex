@@ -1,0 +1,6 @@
+query restApiCall($domain: String!, $url:String!, $datajson: String!) {
+  restResolver(domain: $domain, url: $url, datajson: $datajson) {
+	  hair_color
+    name
+  }
+}

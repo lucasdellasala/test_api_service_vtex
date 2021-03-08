@@ -1,0 +1,51 @@
+.localesAddress{
+  transition: all 400ms ease-in-out;
+}
+
+.localesAddress:hover{
+  background: #eaeaea !important;
+  /* box-shadow: 0px 0px 34px -7px rgba(0,0,0,0.75); */
+}
+
+@media (max-width: 991px){
+  .Locales iframe{
+    width: 100vw;
+  }
+}
+
+.formcontrol{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 100%;
+  max-height: 30%;
+}
+
+.formContainer{
+
+}
+
+.btn{
+  color: white;
+  border-radius: 4px;
+}
+
+.btnInput{
+
+}
+
+.title{
+
+}
+
+.input{
+  
+}
+
+.response{
+  
+}

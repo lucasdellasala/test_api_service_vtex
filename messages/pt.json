@@ -1,0 +1,11 @@
+{
+  "admin/editor.samplerestrequest.branches": "Generic form",
+  "admin/editor.samplerestrequest.title": "Title",
+  "admin/editor.samplerestrequest.textopromo": "Texto promocion",
+  "admin/editor.samplerestrequest.desde": "Fecha desde",
+  "admin/editor.samplerestrequest.hasta": "Fecha Hasta",
+  "admin/editor.samplerestrequest.gap": "Gap",
+  "admin/editor.samplerestrequest.description": "Description",
+  "admin/editor.samplerestrequest.inputType": "Input type",
+  "admin/editor.samplerestrequest.placeholder": "Placeholder"
+}

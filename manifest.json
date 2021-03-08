@@ -1,0 +1,37 @@
+{
+  "vendor": "tmehdi",
+  "name": "samplerestrequest",
+  "version": "0.1.0",
+  "billingOptions": {
+    "free": true,
+    "termsURL": "https://url.to.the/terms"
+  },
+  "builders": {
+    "store": "0.x",
+    "node": "4.x",
+    "react": "3.x",
+    "graphql": "1.x"
+  },
+  "mustUpdateAt": "2020-04-22",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x"
+  },
+  "title": "SampleRestRequestComponent",
+  "description": "VTEX IO Delivery Store Theme",
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "swapi.dev",
+        "path": "*"
+      }
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
